@@ -6,6 +6,12 @@ This is a video app that allows users to watch and interact with videos uploaded
 
 ## deployed link https://videoapp-dll7eq4tr-prabhatkumar11s-projects.vercel.app/
 
+## Installation
+
+- Clone the repository
+- Run `npm install`
+- Run `npm run dev`
+
 ## Features
 
 - Watch videos from various creators
