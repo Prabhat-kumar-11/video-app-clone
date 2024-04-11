@@ -4,7 +4,7 @@
 
 This is a video app that allows users to watch and interact with videos uploaded by creators. Users can like videos, comment on them, and explore a variety of content.
 
-## deployed link
+## deployed link https://videoapp-dll7eq4tr-prabhatkumar11s-projects.vercel.app/
 
 ## Features
 
