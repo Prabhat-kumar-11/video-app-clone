@@ -31,7 +31,7 @@ export const VideoPage: React.FC<VideoPageProps> = ({ setOnClose, video }) => {
 
   return (
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-gray-800 bg-opacity-75 z-50">
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden w-[80%] h-[80%] max-w-xl max-h-xl">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden w-[800px] h-[750px] max-w-xl max-h-xl">
         {/* Close button */}
         <button
           onClick={() => setOnClose(false)}
@@ -55,9 +55,9 @@ export const VideoPage: React.FC<VideoPageProps> = ({ setOnClose, video }) => {
           </div>
         </button>
         {/* Video Player */}
-        <div className="relative h-[400px]">
+        <div className="relative ">
           <video
-            className="w-full h-full"
+            className="w-full h-[300px] sm:h-[450px]" // Adjust height based on screen size
             controls
             autoPlay
             loop
@@ -65,7 +65,7 @@ export const VideoPage: React.FC<VideoPageProps> = ({ setOnClose, video }) => {
           />
         </div>
         {/* Video Details */}
-        <div className="p-4">
+        <div className="p-4 ">
           {/* Creator Info */}
           <div className="flex items-center mb-4">
             <img
